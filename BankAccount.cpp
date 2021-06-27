@@ -12,7 +12,7 @@ BankAccount::BankAccount(ostream& oSt, istream& iSt) {   // Create object using 
 }
 
 // Methods
-void BankAccount::ProjectedComparisonReport(ostream& oSt) {
+void BankAccount::ProjectedComparisonReport(ostream& oSt) { // Outputs 2 reports...
     ProjectedYearEndReport(oSt, true);   // Year End Report using set monthly deposit.
     ProjectedYearEndReport(oSt, false);  // Year End Report using $0 monthly deposit.
 }
