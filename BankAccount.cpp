@@ -4,7 +4,7 @@
 
 using namespace std;
 
-#define MONTHS_IN_YEAR 12U
+const unsigned int MONTHS_IN_YEAR = 12U;
 
 // Constructors
 BankAccount::BankAccount(ostream& oSt, istream& iSt) {   // Create object using streams.
